@@ -48,7 +48,7 @@ def ApakahPecahanSederhana(desimal):
     elif desimal == 1.333:
         desimal = "4/3"
         return desimal
-    else:
+    else:#Copyright@Raihan
         return False
 
 
@@ -109,7 +109,7 @@ def integral(var, i):
     #     if koefisien < 0:
     #         tanda = ""
     #         koefisien *= -1
-
+    #Copyright@Raihan
     # print("K : ",koefisien)
     # print(int(koefisienSederhana/pangkat))
 
@@ -144,7 +144,7 @@ def integral(var, i):
 # koefisien / pangkat
 
 while True:
-    # os.system('cls')
+    os.system('cls')
     print("====================================================")
     print(" Masukkan polinomial yang akan di integralkan ")
     print("====================================================")
@@ -156,7 +156,7 @@ while True:
 
     panjang = len(y)
 
-
+    #Copyright@Raihan
     print("Integral :")
     print("f(x)  = ", end="")
     for i in range(panjang):
